@@ -1,8 +1,7 @@
 .container__bid-card {
-    border: white solid 2px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 600px;
+    width: 500px;
     height: 500px;
 
     display: flex;
@@ -26,5 +25,5 @@
 
 .big-card__photo > img {
     width: 100%;
-    min-width: 600px;
+    min-width: 500px;
 }
