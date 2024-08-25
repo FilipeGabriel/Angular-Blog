@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+    photoCover: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkPe9pNfrShEJZd-9vbLg3pzW7wQuea_pLxg&s"
+    cardTitle: string = "Novo homem de ferro anunciado"
+    cardDescription: string = "Marvel anuncia novo fime do homem de ferro"
 
-  ngOnInit(): void {
-  }
+    constructor() { }
+
+    ngOnInit(): void {
+    }
 
 }
